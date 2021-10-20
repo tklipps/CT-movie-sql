@@ -1,0 +1,183 @@
+INSERT INTO customer(
+    name_first,
+    name_last,
+    age,
+    card_info
+) VALUES (
+    'Dave',
+    'Thomas',
+    84,
+    4242-4242-4242-4441
+)
+
+INSERT INTO customer(
+    name_first,
+    name_last,
+    age,
+    card_info
+) VALUES (
+    'Sheila',
+    'Divine',
+    93,
+    4242-4242-4242-4442
+)
+
+INSERT INTO customer(
+    name_first,
+    name_last,
+    age,
+    card_info
+) VALUES (
+    'Stacies',
+    'Mom',
+    25,
+    4242-4242-4242-4443
+)
+
+INSERT INTO movie(
+    title,
+    rating,
+    show_start
+) VALUES (
+    'Bee Movie',
+    'PG',
+    '6:40:00'
+)
+
+INSERT INTO movie(
+    title,
+    rating,
+    show_start
+) VALUES (
+    'Bee Movie',
+    'PG',
+    '7:50:00'
+)
+
+INSERT INTO movie(
+    title,
+    rating,
+    show_start
+) VALUES (
+    'Bee Movie',
+    'PG',
+    '8:35:00'
+)
+
+INSERT INTO movie(
+    title,
+    rating,
+    show_start
+) VALUES (
+    'Fight Club',
+    'R',
+    '6:40:00'
+)
+
+INSERT INTO movie(
+    title,
+    rating,
+    show_start
+) VALUES (
+    'Fight Club',
+    'R',
+    '7:15:00'
+)
+
+INSERT INTO movie(
+    title,
+    rating,
+    show_start
+) VALUES (
+    'Fight Club',
+    'R',
+    '9:30:00'
+)
+
+---
+
+INSERT INTO ticket(
+    ticket_value,
+    seat,
+    customer_id,
+    movie_id
+) VALUES (
+    .99,
+    '2A',
+    1,
+    1
+)
+
+INSERT INTO ticket(
+    ticket_value,
+    seat,
+    customer_id,
+    movie_id
+) VALUES (
+    .99,
+    '2B',
+    1,
+    1
+)
+
+INSERT INTO ticket(
+    ticket_value,
+    seat,
+    customer_id,
+    movie_id
+) VALUES (
+    .78,
+    '5F',
+    2,
+    2
+)
+
+INSERT INTO ticket(
+    ticket_value,
+    seat,
+    customer_id,
+    movie_id
+) VALUES (
+    .78,
+    '8G',
+    3,
+    2
+)
+
+----
+
+INSERT INTO concession(
+    item_name,
+    size,
+    cost,
+    customer_id
+) VALUES (
+    'Nachos',
+    'Medium',
+    5.99,
+    3
+)
+
+INSERT INTO concession(
+    item_name,
+    size,
+    cost,
+    customer_id
+) VALUES (
+    'Pepsi',
+    'XLarge',
+    9.99,
+    3
+)
+
+INSERT INTO concession(
+    item_name,
+    size,
+    cost,
+    customer_id
+) VALUES (
+    'Popcorn',
+    'XSmall',
+    1.99,
+    1
+)
